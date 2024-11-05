@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: TEAM2556-Python
+Version: 0.1.0
+Summary: FRC Robot Project using Python, PyRobot, and WPILib
+Author-email: Team2556 <team2556@gmail.com>
+Requires-Dist: wpilib
+Requires-Dist: robotpy
+Requires-Dist: mypy

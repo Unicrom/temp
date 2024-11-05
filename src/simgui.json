@@ -1,0 +1,210 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon SRX[3]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[3]/Analog In": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[3]/Fwd Limit": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[3]/Pulse Width Input": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[3]/Quad Encoder": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[3]/Rev Limit": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[4]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[4]/Pulse Width Input": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[4]/Quad Encoder": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/Shuffleboard/IMU/IMU": "Gyro",
+      "/SmartDashboard/Cannon": "Subsystem",
+      "/SmartDashboard/Cannon Lift Down": "Command",
+      "/SmartDashboard/Cannon Lift Up": "Command",
+      "/SmartDashboard/CannonChargeSubsystem": "Subsystem",
+      "/SmartDashboard/CannonLift": "Subsystem",
+      "/SmartDashboard/Charge and Shoot": "Command",
+      "/SmartDashboard/Drive 1ft": "Command",
+      "/SmartDashboard/DriveSubsystem": "Subsystem",
+      "/SmartDashboard/Drivetrain": "Subsystem",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/FireSubsystem": "Subsystem",
+      "/SmartDashboard/IMU Angle": "Gyro",
+      "/SmartDashboard/SafeAndArm": "Subsystem",
+      "/SmartDashboard/Scheduler": "Scheduler",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser",
+      "/SmartDashboard/backLeftMotor": "Motor Controller",
+      "/SmartDashboard/backLeftMotor -from drivetrain": "Motor Controller",
+      "/SmartDashboard/backRightMotor": "Motor Controller",
+      "/SmartDashboard/backRightMotor -from drivetrain": "Motor Controller",
+      "/SmartDashboard/drive type?": "MecanumDrive",
+      "/SmartDashboard/drivetrain": "MecanumDrive",
+      "/SmartDashboard/drivetrain init in physics": "MecanumDrive",
+      "/SmartDashboard/drivetrain that pulled into simupdate": "MecanumDrive",
+      "/SmartDashboard/front left motor": "Motor Controller",
+      "/SmartDashboard/frontLeftMotor": "Motor Controller",
+      "/SmartDashboard/frontLeftMotor -from drivetrain": "Motor Controller",
+      "/SmartDashboard/frontRightMotor": "Motor Controller",
+      "/SmartDashboard/frontRightMotor -from drivetrain": "Motor Controller",
+      "/SmartDashboard/imported drivetrain": "Subsystem",
+      "/SmartDashboard/robotDrive -from drivetrain init": "MecanumDrive",
+      "/SmartDashboard/robotDrive -from drivetrain periodic": "MecanumDrive"
+    }
+  },
+  "NetworkTables": {
+    "Retained Values": {
+      "open": false
+    },
+    "transitory": {
+      "LiveWindow": {
+        ".status": {
+          "open": true
+        },
+        "open": true
+      },
+      "Shuffleboard": {
+        ".metadata": {
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "double[]##v_/SmartDashboard/Sim- Pose": {
+          "open": true
+        },
+        "double[]##v_/SmartDashboard/Sim- Position": {
+          "open": true
+        },
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "Clients": {
+      "open": true
+    },
+    "Connections": {
+      "open": true
+    },
+    "NT3@127.0.0.1:50289": {
+      "open": true
+    },
+    "Server": {
+      "Publishers": {
+        "open": true
+      },
+      "Subscribers": {
+        "open": true
+      }
+    },
+    "glass@1": {
+      "Publishers": {
+        "open": true
+      },
+      "Subscribers": {
+        "open": true
+      }
+    },
+    "visible": true
+  },
+  "Plot": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 332
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    },
+    "Plot <1>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 332
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    },
+    "Plot <2>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 332
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    },
+    "Plot <3>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 332
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    }
+  }
+}

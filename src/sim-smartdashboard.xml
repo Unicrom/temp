@@ -1,0 +1,46 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="cannon status -from cannon: last action" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="287"/>
+	</widget>
+	<widget field="compressor -from cannon" type="Compressor" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalOutputController">
+		<location x="0" y="265"/>
+	</widget>
+	<widget field="backRightMotor -from drivetrain" type="Motor Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+		<location x="0" y="199"/>
+	</widget>
+	<widget field="backLeftMotor -from drivetrain" type="Motor Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+		<location x="0" y="153"/>
+	</widget>
+	<widget field="frontRightMotor -from drivetrain" type="Motor Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+		<location x="0" y="107"/>
+	</widget>
+	<widget field="frontLeftMotor -from drivetrain" type="Motor Controller" class="edu.wpi.first.smartdashboard.livewindow.elements.SpeedController">
+		<location x="0" y="33"/>
+	</widget>
+	<widget field="backRightMotor_SIM getmotorOutput Volts by 12Volts" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="181" y="370"/>
+		<height>22</height>
+	</widget>
+	<widget field="backLeftMotor_SIM getmotorOutput Volts by 12Volts" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="20" y="350"/>
+	</widget>
+	<widget field="frontRightMotor_SIM getmotorOutput Volts by 12Volts" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="200" y="334"/>
+	</widget>
+	<widget field="frontLeftMotor_SIM getmotorOutput Volts by 12Volts" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="17" y="318"/>
+	</widget>
+	<widget field="Scheduler" type="Scheduler" class="edu.wpi.first.smartdashboard.gui.elements.Scheduler">
+		<location x="0" y="93"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="0" y="0"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="Field"/>
+	<hidden field="cannonRelay -from cannon"/>
+	<hidden field="robotDrive -from drivetrain periodic"/>
+</xml>
